@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#C64F8E"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="-190dp"
+        tools:layout_editor_absoluteY="-72dp">
+
+        <Button
+            android:id="@+id/playBtn"
+            android:layout_width="123dp"
+            android:layout_height="51dp"
+            android:backgroundTint="#EDE6E6"
+            android:fontFamily="sans-serif"
+            android:text="PLAY"
+            android:textColor="#404040"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.944"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.776" />
+
+        <ImageView
+            android:id="@+id/kitty"
+            android:layout_width="261dp"
+            android:layout_height="279dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.287"
+            app:srcCompat="@drawable/catimad" />
+
+        <Button
+            android:id="@+id/feedBtn"
+            android:layout_width="116dp"
+            android:layout_height="51dp"
+            android:backgroundTint="#F4E7E7"
+            android:fontFamily="sans-serif"
+            android:text="FEED"
+            android:textColor="#171414"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <Button
+            android:id="@+id/cookBtn"
+            android:layout_width="110dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#ECDDDD"
+            android:fontFamily="sans-serif"
+            android:text="COOK"
+            android:textColor="#292525"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <TextView
+            android:id="@+id/healthbar"
+            android:layout_width="310dp"
+            android:layout_height="57dp"
+            android:fontFamily="@font/bungee_inline"
+            android:text="Stomach:  Bake:  Energy: "
+            android:textAlignment="center"
+            android:textColor="#F8EAEA"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.655" />
+
+        <Button
+            android:id="@+id/homeBtn"
+            android:layout_width="142dp"
+            android:layout_height="52dp"
+            android:backgroundTint="#ECDFDF"
+            android:text="Back"
+            android:textColor="#2C2929"
+            android:textColorHighlight="#232222"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.914" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
